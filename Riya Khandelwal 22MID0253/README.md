@@ -91,7 +91,6 @@ The notebook is structured into 12 sections:
 | 9 | Feature Importance | Top discriminative tokens per class (bar charts) |
 | 10 | Summary Table | Side-by-side model comparison with human baseline |
 | 11 | Live Prediction | `predict_review()` function for new inputs |
-| 12 | Batch Prediction | `batch_predict()` for CSV files |
 
 ---
 
