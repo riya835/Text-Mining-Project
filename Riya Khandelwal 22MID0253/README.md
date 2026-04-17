@@ -49,25 +49,10 @@ pip install scikit-learn pandas numpy matplotlib seaborn
 
 The notebook uses the **Deceptive Opinion Spam Corpus**.
 
-### Option A — Kaggle Download (Recommended)
-
-1. Create a Kaggle account and generate an API key at `https://www.kaggle.com/settings`
-2. Place `kaggle.json` in `~/.kaggle/kaggle.json`
-3. Run in terminal:
-   ```bash
-   kaggle datasets download -d rtatman/deceptive-opinion-spam-corpus
-   unzip deceptive-opinion-spam-corpus.zip -d deceptive-opinion-spam-corpus
-   ```
-
-### Option B — Manual Download
-
 1. Go to https://www.kaggle.com/datasets/rtatman/deceptive-opinion-spam-corpus
 2. Download and extract the ZIP
 3. Place the CSV at: `deceptive-opinion-spam-corpus/deceptive_opinion_spam_corpus.csv`
 
-### Option C — Synthetic Fallback (No Dataset Required)
-
-If no CSV is found, the notebook automatically generates a synthetic dataset that mimics the linguistic patterns described in the paper. **Use only for pipeline testing**, not for publication.
 
 ---
 
